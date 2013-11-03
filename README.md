@@ -2,7 +2,7 @@
 
 The octochange is a game of memory and velocity. Fasten your seat belts!
 
-![octoChange draft](http://www.flickr.com/photos/heliomedeiros/10626475294/)
+![octoChange draft](https://github.com/helmedeiros/game-off-2013/blob/master/draft/screen.jpg?raw=true)
 
 
 

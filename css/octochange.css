@@ -208,6 +208,45 @@ body {
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
+.collection-list-container {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.octocats-view {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 505px
+}
+.octocats-row {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 45px;
+    font-size: 12px;
+}
+.octocats-row .outline {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.octocats-row>.row-divider-bottom {
+    left: 0px;
+}
+.octocats-row>.row-divider-bottom {
+    position: absolute;
+    left: 40px;
+    right: 0px;
+    bottom: 0px;
+    height: 2px;
+    background-image: url('../icon/imgs-2.png');
+    background-position: 0px 0px;
+    background-repeat: repeat;
+}
 /* Right Main-View */
  .main-pane .right-main-view {
     left: 369px;

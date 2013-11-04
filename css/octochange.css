@@ -203,9 +203,9 @@ body {
     position: absolute;
     width: 96px;
     height: 19px;
-    top: 20px;
+    top: 21px;
     background-image: url('../icon/imgs-1.png');
-    background-position: 0px 0px;
+    background-position: 3px 0px;
     background-repeat: no-repeat;
 }
 .collection-list-container {
@@ -246,6 +246,23 @@ body {
     background-image: url('../icon/imgs-2.png');
     background-position: 0px 0px;
     background-repeat: repeat;
+}
+.octocats-row label {
+    position: absolute;
+    height: 24px;
+    line-height: 24px;
+    top: 17px;
+    left: 42px;
+    right: 42px;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    -o-text-overflow: ellipsis !important;
+    -ms-text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    font-size: 17px;
+    color: #fff;
+    display: block;
+    margin-top: -9px;
 }
 /* Right Main-View */
  .main-pane .right-main-view {

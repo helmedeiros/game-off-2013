@@ -13,7 +13,7 @@
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
 }
-.octicon-octoface {
+.collection-list-container .mega-octicon {
     margin: 8px;
     float: left;
     width: 24px;
@@ -22,4 +22,7 @@
 }
 .octicon-octoface:before {
     content:'\f008';
+}
+.octicon-mark-github:before {
+    content:'\f00a';
 }

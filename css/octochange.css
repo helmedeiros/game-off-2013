@@ -106,10 +106,15 @@ body {
     font-size:15px;
     line-height:1.2
 }
+
+.regular-size {
+    font-size: 12px;
+}
+
 .view {
     cursor:default;
     overflow:hidden;
-    position:absolute;
+    position:relative;
     margin:0px;
     border:solid 0 transparent;
     -moz-user-select:-moz-none;
@@ -156,7 +161,6 @@ body {
     overflow:visible;
     left: 0px;
     right: 0px;
-    top: 45px;
     bottom: 0px;
 }
 .oct.view.menu {
@@ -173,7 +177,6 @@ body {
     bottom: 0px;
     margin-left: -1px;
     color: #999;
-    display: inline-block;
     vertical-align: middle;
     text-decoration: none;
     cursor: pointer;
@@ -197,7 +200,7 @@ body {
     vertical-align: top;
     display: block;
     text-align: center;
-    left: 38px;
+    left: 31px;
 }
 .octo-logo-text.image.light {
     position: absolute;
@@ -214,40 +217,26 @@ body {
     top: 0px;
     bottom: 0px;
 }
-.octocats-view {
+.collection-container {
     left: 0px;
     right: 0px;
     top: 0px;
     height: 505px
 }
-.octocats-row {
+.collection-header {
     left: 0px;
     right: 0px;
     top: 0px;
     height: 45px;
-    font-size: 12px;
 }
-.octocats-row .outline {
+.collection-container .outline {
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
 }
-.octocats-row>.row-divider-bottom {
-    left: 0px;
-}
-.octocats-row>.row-divider-bottom {
-    position: absolute;
-    left: 40px;
-    right: 0px;
-    bottom: 0px;
-    height: 2px;
-    background-image: url('../icon/imgs-2.png');
-    background-position: 0px 0px;
-    background-repeat: repeat;
-}
-.octocats-row label {
+.collection-container .outline label {
     position: absolute;
     height: 24px;
     line-height: 24px;
@@ -263,6 +252,23 @@ body {
     color: #fff;
     display: block;
     margin-top: -9px;
+}
+.collection-row>.row-divider-bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-image: url('../icon/imgs-2.png');
+    background-position: 0px 0px;
+    background-repeat: repeat;
+}
+.collection-content {
+    height: 44px;
+    overflow: visible;
+}
+.collection-content>.row-divider-bottom {
+    left: 44px;
 }
 /* Right Main-View */
  .main-pane .right-main-view {

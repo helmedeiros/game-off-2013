@@ -106,7 +106,7 @@ body {
     font-size:15px;
     line-height:1.2
 }
-.float-right{
+.float-right {
     float: right !important;
 }
 .regular-size {
@@ -260,15 +260,25 @@ a:hover {
     white-space: nowrap !important;
     font-size: 17px;
     color: #fff;
-    margin: 8px 2px;    
+    margin: 8px 2px;
     width: 240px;
 }
 .collection-row>.row-divider-bottom {
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     left: 0px;
     right: 0px;
     height: 2px;
+    background-image: url('../icon/imgs-2.png');
+    background-position: 0px 0px;
+    background-repeat: repeat;
+}
+.collection-row>.row-divider-top {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -1px;
+    height: 1px;
     background-image: url('../icon/imgs-2.png');
     background-position: 0px 0px;
     background-repeat: repeat;
@@ -285,6 +295,7 @@ a:hover {
     overflow: visible;
     background: rgb(45, 45, 43);
     background-repeat: repeat;
+    color: #fff;
 }
 /* Right Main-View */
  .main-pane .right-main-view {

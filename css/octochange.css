@@ -136,6 +136,7 @@ a:hover {
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0)
 }
 .main-pane {
+    position: absolute;
     background:#fff;
     background-position: 0px 0px;
     background-repeat:repeat;
@@ -151,9 +152,11 @@ a:hover {
     right: 0px;
     top: 0px;
     bottom: 0px;
+    position: absolute;
 }
 /* Left Main-View */
  .main-pane .left-main-view {
+    position: absolute;
     background:#383836;
     left: 0px;
     top: 0px;
@@ -282,10 +285,10 @@ a:hover {
     overflow: visible;
     background: rgb(45, 45, 43);
     background-repeat: repeat;
-    color: #fff;
 }
 /* Right Main-View */
  .main-pane .right-main-view {
+    position: absolute;
     left: 369px;
     top: 0px;
     bottom: 0px;

@@ -277,6 +277,13 @@ a:hover {
 .collection-content>.row-divider-bottom {
     left: 44px;
 }
+.collection-content.sel {
+    z-index: 1;
+    overflow: visible;
+    background: rgb(45, 45, 43);
+    background-repeat: repeat;
+    color: #fff;
+}
 /* Right Main-View */
  .main-pane .right-main-view {
     left: 369px;

@@ -13,16 +13,26 @@
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
 }
-.collection-list-container .mega-octicon {
+.outline .mega-octicon {
+	float: right;
     margin: 8px;
-    float: left;
     width: 24px;
     height: 25px;
     font-size: 25px;
 }
+.outline>.octicon-mark-github,.octicon-octoface{
+	float: left !important;
+}
+
 .octicon-octoface:before {
     content:'\f008';
 }
 .octicon-mark-github:before {
     content:'\f00a';
+}
+.octicon-check:before {
+    content:'\f03a';
+}
+.octicon-search:before {
+    content:'\f02e';
 }

@@ -106,11 +106,21 @@ body {
     font-size:15px;
     line-height:1.2
 }
-
+.float-right{
+    float: right !important;
+}
 .regular-size {
     font-size: 12px;
 }
-
+/* Links */
+ a {
+    color:#999;
+    text-decoration: none;
+}
+a:hover {
+    color:#fff;
+    text-decoration:underline
+}
 .view {
     cursor:default;
     overflow:hidden;
@@ -237,12 +247,9 @@ body {
     bottom: 0;
 }
 .collection-container .outline label {
-    position: absolute;
+    float: left;
     height: 24px;
     line-height: 24px;
-    top: 17px;
-    left: 42px;
-    right: 42px;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
     -o-text-overflow: ellipsis !important;
@@ -250,8 +257,8 @@ body {
     white-space: nowrap !important;
     font-size: 17px;
     color: #fff;
-    display: block;
-    margin-top: -9px;
+    margin: 8px 2px;    
+    width: 240px;
 }
 .collection-row>.row-divider-bottom {
     position: absolute;

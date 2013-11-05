@@ -106,7 +106,7 @@ body {
     font-size:15px;
     line-height:1.2
 }
-.float-right{
+.float-right {
     float: right !important;
 }
 .regular-size {
@@ -136,6 +136,7 @@ a:hover {
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0)
 }
 .main-pane {
+    position: absolute;
     background:#fff;
     background-position: 0px 0px;
     background-repeat:repeat;
@@ -151,9 +152,11 @@ a:hover {
     right: 0px;
     top: 0px;
     bottom: 0px;
+    position: absolute;
 }
 /* Left Main-View */
  .main-pane .left-main-view {
+    position: absolute;
     background:#383836;
     left: 0px;
     top: 0px;
@@ -257,15 +260,25 @@ a:hover {
     white-space: nowrap !important;
     font-size: 17px;
     color: #fff;
-    margin: 8px 2px;    
+    margin: 8px 2px;
     width: 240px;
 }
 .collection-row>.row-divider-bottom {
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     left: 0px;
     right: 0px;
     height: 2px;
+    background-image: url('../icon/imgs-2.png');
+    background-position: 0px 0px;
+    background-repeat: repeat;
+}
+.collection-row>.row-divider-top {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -1px;
+    height: 1px;
     background-image: url('../icon/imgs-2.png');
     background-position: 0px 0px;
     background-repeat: repeat;
@@ -286,6 +299,7 @@ a:hover {
 }
 /* Right Main-View */
  .main-pane .right-main-view {
+    position: absolute;
     left: 369px;
     top: 0px;
     bottom: 0px;

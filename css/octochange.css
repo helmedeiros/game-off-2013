@@ -106,10 +106,25 @@ body {
     font-size:15px;
     line-height:1.2
 }
+.float-right{
+    float: right !important;
+}
+.regular-size {
+    font-size: 12px;
+}
+/* Links */
+ a {
+    color:#999;
+    text-decoration: none;
+}
+a:hover {
+    color:#fff;
+    text-decoration:underline
+}
 .view {
     cursor:default;
     overflow:hidden;
-    position:absolute;
+    position:relative;
     margin:0px;
     border:solid 0 transparent;
     -moz-user-select:-moz-none;
@@ -156,7 +171,6 @@ body {
     overflow:visible;
     left: 0px;
     right: 0px;
-    top: 45px;
     bottom: 0px;
 }
 .oct.view.menu {
@@ -173,7 +187,6 @@ body {
     bottom: 0px;
     margin-left: -1px;
     color: #999;
-    display: inline-block;
     vertical-align: middle;
     text-decoration: none;
     cursor: pointer;
@@ -197,16 +210,79 @@ body {
     vertical-align: top;
     display: block;
     text-align: center;
-    left: 38px;
+    left: 31px;
 }
 .octo-logo-text.image.light {
     position: absolute;
     width: 96px;
     height: 19px;
-    top: 20px;
+    top: 21px;
     background-image: url('../icon/imgs-1.png');
-    background-position: 0px 0px;
+    background-position: 3px 0px;
     background-repeat: no-repeat;
+}
+.collection-list-container {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.collection-container {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 505px
+}
+.collection-header {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 45px;
+}
+.collection-container .outline {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.collection-container .outline label {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    -o-text-overflow: ellipsis !important;
+    -ms-text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    font-size: 17px;
+    color: #fff;
+    margin: 8px 2px;    
+    width: 240px;
+}
+.collection-row>.row-divider-bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-image: url('../icon/imgs-2.png');
+    background-position: 0px 0px;
+    background-repeat: repeat;
+}
+.collection-content {
+    height: 44px;
+    overflow: visible;
+}
+.collection-content>.row-divider-bottom {
+    left: 44px;
+}
+.collection-content.sel {
+    z-index: 1;
+    overflow: visible;
+    background: rgb(45, 45, 43);
+    background-repeat: repeat;
+    color: #fff;
 }
 /* Right Main-View */
  .main-pane .right-main-view {
